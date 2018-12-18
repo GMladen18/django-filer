@@ -27,6 +27,8 @@ class AdminFileWidget(ForeignKeyRawIdWidget):
         obj = self.obj_for_value(value)
         css_id = attrs.get('id', 'id_image_x')
         related_url = None
+        file_obj = None
+
         if value:
             try:
                 file_obj = File.objects.get(pk=value)
