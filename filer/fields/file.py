@@ -57,7 +57,7 @@ class AdminFileWidget(ForeignKeyRawIdWidget):
         context = {
             'hidden_input': hidden_input,
             'lookup_url': '%s%s' % (related_url, lookup_url),
-            'object': obj,
+            'object': file_obj,
             'lookup_name': name,
             'id': css_id,
             'admin_icon_delete': (
