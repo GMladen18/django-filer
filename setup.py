@@ -26,11 +26,11 @@ setup(
     author_email='stefan@foulis.ch',
     packages=find_packages(),
     install_requires=(
-        'Django>=1.8,<2.2',
-        'easy-thumbnails>=2,<3.0',
+        'Django>=1.8',
+        'easy-thumbnails>=2',
         'django-mptt>=0.6,<1.0',  # the exact version depends on Django
-        'django_polymorphic>=0.7,<2.1',
-        'Unidecode>=0.04,<1.1',
+        'django_polymorphic>=0.7',
+        'Unidecode>=0.04',
     ),
     include_package_data=True,
     zip_safe=False,
